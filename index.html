@@ -10,11 +10,18 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">ホーム</a></li>
-                <li><a href="#">ニュース</a></li>
-                <li><a href="#">イベント</a></li>
-                <li><a href="#">コンテンツ</a></li>
-                <li><a href="#">お問い合わせ</a></li>
+                <li><a href="#">ホーム</a>
+                 　　<a href="https://twitter.com/@onlineyouth_ben">ツイッターでフォローする</a></li>                
+                <li><a href="#">お問い合わせ</a>
+                     <form action="送信先のURL" method="POST">
+       　　　　　　　 <label for="name">名前:</label><br>
+        　　　　　　　<input type="text" id="name" name="name"><br><br>
+　　　　　　　　　　　 <label for="email">メールアドレス:</label><br>
+       　　　　　　　 <input type="email" id="email" name="email"><br><br>
+                　　　<label for="message">メッセージ:</label><br>
+       　　　　　　　 <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+　　　　　　　　　　　<input type="submit" value="送信">
+   　　　　　　　　　 </form></li>
             </ul>
         </nav>
     </header>
