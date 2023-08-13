@@ -1,6 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>若者向けウェブサイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">ニュース</a></li>
+                <li><a href="#">イベント</a></li>
+                <li><a href="#">コンテンツ</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>若者向けウェブサイト</h1>
+        <p>新しい冒険が待っています！</p>
+        <a href="#" class="cta-button">始める</a>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>最新ニュース</h2>
+            <p>いつも最新の情報を提供します。</p>
+        </div>
+        <div class="feature">
+            <h2>楽しいイベント</h2>
+            <p>一緒に楽しい時間を過ごしましょう！</p>
+        </div>
+        <div class="feature">
+            <h2>クリエイティブなコンテンツ</h2>
+            <p>創造力を刺激するコンテンツをお届けします。</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 若者向けウェブサイト</p>
+    </footer>
 </body>
 </html>
